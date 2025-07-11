@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dnd_ab</title>
+    <link rel="shortcut icon" href="tab-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav>Навигация по сайту</nav>
+    </header>
+
+    <aside>
+        <nav>Навигация по странице</nav>
+    </aside>
+
+    <main>
+        <h1>Создай персонажа</h1>
+
+        <section id="generalInfo">
+            <h2>Информация о персонаже</h2>
+            <section>
+                <article>
+                    <label for="#character-name">Имя персонажа</label>
+                    <input type="text">
+                </article>
+
+                <article>
+                    <label for="#species">Вид</label>
+                    <select name="" id="species">
+                        <option value="">--Не выбрано--</option>
+                        <option value="">Аасимар</option>
+                        <option value="">Гном</option>
+                        <option value="">Голиаф</option>
+                        <option value="">Дварф</option>
+                        <option value="">Драконорождённый</option>
+                        <option value="">Орк</option>
+                        <option value="">Полурослик</option>
+                        <option value="">Тифлинг</option>
+                        <option value="">Человек</option>
+                        <option value="">Эльф</option>
+                    </select>
+
+                </article>
+
+                <article>
+                    <label for="#character-class">Класс</label>
+                    <select name="" id="character-class">
+                        <option value="">--Не выбрано--</option>
+                        <option value="">Бард</option>
+                        <option value="">Варвар</option>
+                        <option value="">Воин</option>
+                        <option value="">Волшебник</option>
+                        <option value="">Друид</option>
+                        <option value="">Жрец</option>
+                        <option value="">Колдун</option>
+                        <option value="">Монах</option>
+                        <option value="">Паладин</option>
+                        <option value="">Плут</option>
+                        <option value="">Следопыт</option>
+                        <option value="">Чародей</option>
+                    </select>
+                </article>
+
+                <article>
+                    <label for="#background">Предыстория</label>
+                    <select name="" id="background">
+                        <option value="">--Не выбрано--</option>
+                        <option value="">Артист</option>
+                        <option value="">Благородный</option>
+                        <option value="">Моряк</option>
+                        <option value="">Мудрец</option>
+                        <option value="">Отшельник</option>
+                        <option value="">Писарь</option>
+                        <option value="">Послушник</option>
+                        <option value="">Преступник</option>
+                        <option value="">Проводник</option>
+                        <option value="">Путешественник</option>
+                        <option value="">Ремесленник</option>
+                        <option value="">Солдат</option>
+                        <option value="">Стражник</option>
+                        <option value="">Торговец</option>
+                        <option value="">Фермер</option>
+                        <option value="">Шарлатан</option>
+                    </select>
+                </article>
+
+            </section>
+
+            <picture>
+                <source >
+                <img src="Alpheratz Lionheart.jpg" width="250" alt="Картинка персонажа">
+            </picture>
+            
+                
+        </section>
+
+        <section id="stats">
+            <h2>Значение характеристик</h2>
+
+            <section id="Strength">
+                <h3>
+                    <label for="strength">Сила</label>
+                    <input type="number" id="strength">
+                </h3>
+                
+                <article>Атлетика</article>
+            </section>
+
+            <section id="Dextricity">
+                <h3>
+                    <label for="dextricity">Ловкость</label>
+                    <input type="number" id="dextricity">
+                </h3>
+
+                <article>Акробатика</article>
+                <article>Ловкость рук</article>
+                <article>Скрытность</article>
+            </section>
+
+            <section id="Constitution">
+                <h3>
+                    <label for="constitution">Телосложение</label>
+                    <input type="number" id="constitution">
+                </h3>
+            </section>
+
+            <section id="Intelligence">
+                <h3>
+                    <label for="intelligence">Интеллект</label>
+                    <input type="number" id="intelligence">
+                </h3>
+
+                <ul>
+                    <li>
+                        <input type="checkbox" name="Анализ" id="">
+                        <article></article>
+                    </li>
+                    <li>
+                        <article>История</article>
+                    </li>
+                    <li>
+                        <article>Магия</article>
+                    </li>
+                    <li>
+                        <article>Природа</article>
+                    </li>
+                    <li>
+                        <article>Религия</article>
+                    </li>
+                </ul>
+                
+            </section>
+
+            <section id="Wisdom">
+                <h3>
+                    <label for="wisdom">Мудрость</label>
+                    <input type="number" id="wisdom">
+                </h3>
+
+                <ul>
+                    <li>
+                        <article>Внимательность</article>
+                    </li>
+                    <li>
+                        <article>Выживание</article>
+                    </li>
+                    <li>
+                        <article>Дрессировка</article>
+                    </li>
+                    <li>
+                        <article>Медицина</article>
+                    </li>
+                    <li>
+                        <article>Проницательность</article>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="Charisma">
+                <h3>
+                    <label for="charisma">Харизма</label>
+                    <input type="number" id="charisma">
+                </h3>
+
+                <article>Запугивание</article>
+                <article>Исполнение</article>
+                <article>Обман</article>
+                <article>Убеждение</article>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav>
+            Навигация по сайту
+        </nav>
+
+        <article>
+            <label for="contacts">
+                <h2>Контакты:</h2>
+            </label>
+            <ul id="contacts">
+                <li>
+                    <a href="tel:+79500463026">Телефон</a>
+                </li>
+                <li>
+                    <a href="mailto:ginger.ded@gmail.com">Почта</a>
+                </li>
+            </ul>
+        </article>
+
+    </footer>
+
+</body>
+
+</html>
