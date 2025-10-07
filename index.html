@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>dnd_ab</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <article id="generalInfo">
+            <h2>Информация о персонаже</h2>
+
+            <label for="charName">Имя:</label>
+            <input type="text" id="charName">
+
+            <label for="species">Вид:</label>
+            <input type="text" id="species">
+
+            <label for="charClass">Класс:</label>
+            <input type="text" id="charClass">
+
+        </article>
+        
+        <article id="ability">
+            <h2>Характеристики и навыки</h2>
+
+            <section class="ability-block" id="str-block">
+
+                <label for="str-value">Сила</label>
+                <input type="number" class="ability-value" id="str-value" min="1" max="30" value="10">
+                    
+                <label for="str-mod">Модификатор</label>
+                <output class="ability-mod" id="str-mod">+0</output>
+
+                <input type="checkbox" class="ability-save" id="str-save">
+                <label for="str-save">Спасбросок</label>
+                <output class="ability-save-out" id="str-save-out">+0</output>
+ 
+                <div class="ability-skills" id="str-skills">
+
+                    <input type="checkbox" class="skill" id="atlethics">
+                    <label for="atlethics">Атлетика</label>
+                    <output class="skill-out" id="atlethics-out">+0</output>
+
+                </div>
+
+            </section>
+
+            <section class="ability-block" id="dex-block">
+
+                <label for="dex-value">Ловкость</label>
+                <input type="number" class="ability-value" id="dex-value" min="1" max="30" value="10">
+                    
+                <label for="dex-mod">Модификатор</label>
+                <output class="ability-mod" id="dex-mod">+0</output>
+
+                <input type="checkbox" class="ability-save" id="dex-save">
+                <label for="dex-save">Спасбросок</label>
+                <output class="ability-save-out" id="dex-save-out">+0</output>
+ 
+                <div class="ability-skills" id="dex-skills">
+
+                    <input type="checkbox" class="skill" id="acrobatics">
+                    <label for="acrobatics">Акробатика</label>
+                    <output class="skill-out" id="acrobatics-out">+0</output>
+
+                    <input type="checkbox" class="skill" id="sleight-of-hands">
+                    <label for="sleight-of-hands">Ловкость рук</label>
+                    <output class="skill-out" id="sleight-of-hands-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="stealth">
+                    <label for="stealth">Скрытность</label>
+                    <output class="skill-out" id="stealth-out">+0</output>                    
+
+                </div>
+
+            </section>
+
+            <section class="ability-block" id="con-block">
+
+                <label for="con-value">Телосложение</label>
+                <input type="number" class="ability-value" id="con-value" min="1" max="30" value="10">
+                    
+                <label for="con">Модификатор</label>
+                <output class="ability-mod" id="con-mod">+0</output>
+
+                <input type="checkbox" class="ability-save" id="con-save">
+                <label for="con-save">Спасбросок</label>
+                <output class="ability-save-out" id="con-save-out">+0</output>
+ 
+            </section>
+
+            <section class="ability-block" id="int-block">
+
+                <label for="int-value">Интеллект</label>
+                <input type="number" class="ability-value" id="int-value" min="1" max="30" value="10">
+                    
+                <label for="int-mod">Модификатор</label>
+                <output class="ability-mod" id="int-mod">+0</output>
+
+                <input type="checkbox" class="ability-save" id="int-save">
+                <label for="int-save">Спасбросок</label>
+                <output class="ability-save-out" id="int-save-out">+0</output>
+ 
+                <div class="ability-skills" id="int-skills">
+
+                    <input type="checkbox" class="skill" id="arcana">
+                    <label for="arcana">Магия</label>
+                    <output class="skill-out" id="arcana-out">+0</output>
+
+                    <input type="checkbox" class="skill" id="history">
+                    <label for="history">История</label>
+                    <output class="skill-out" id="history-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="investigation">
+                    <label for="investigation">Анализ</label>
+                    <output class="skill-out" id="investigation-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="nature">
+                    <label for="nature">Природа</label>
+                    <output class="skill-out" id="nature-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="religion">
+                    <label for="religion">Религия</label>
+                    <output class="skill-out" id="religion-out">+0</output>
+
+                </div>
+
+            </section>            
+
+            <section class="ability-block" id="wis-block">
+
+                <label for="wis-value">Мудрость</label>
+                <input type="number" class="ability-value" id="wis-value" min="1" max="30" value="10">
+                    
+                <label for="wis-mod">Модификатор</label>
+                <output class="ability-mod" id="wis-mod">+0</output>
+
+                <input type="checkbox" class="ability-save" id="wis-save">
+                <label for="wis-save">Спасбросок</label>
+                <output class="ability-save-out" id="wis-save-out">+0</output>
+ 
+                <div class="ability-skills" id="wis-skills">
+
+                    <input type="checkbox" class="skill" id="animal-handling">
+                    <label for="animal-handling">Уход за животными</label>
+                    <output class="skill-out" id="animal-handling-out">+0</output>
+
+                    <input type="checkbox" class="skill" id="insight">
+                    <label for="insight">Проницательность</label>
+                    <output class="skill-out" id="insight-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="medicine">
+                    <label for="medicine">Медицина</label>
+                    <output class="skill-out" id="medicine-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="perception">
+                    <label for="perception">Восприятие</label>
+                    <output class="skill-out" id="perception-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="survival">
+                    <label for="survival">Выживание</label>
+                    <output class="skill-out" id="survival-out">+0</output>
+
+                </div>
+
+            </section>
+            
+            <section class="ability-block" id="cha-block">
+
+                <label for="cha-value">Харизма</label>
+                <input type="number" class="ability-value" id="cha-value" min="1" max="30" value="10">
+                    
+                <label for="cha-mod">Модификатор</label>
+                <output class="ability-mod" id="cha-mod">+0</output>
+
+                <input type="checkbox" class="ability-save" id="cha-save">
+                <label for="cha-save">Спасбросок</label>
+                <output class="ability-save-out" id="cha-save-out">+0</output>
+ 
+                <div class="ability-skills" id="cha-skills">
+
+                    <input type="checkbox" class="skill" id="deception">
+                    <label for="deception">Обман</label>
+                    <output class="skill-out" id="deception-out">+0</output>
+
+                    <input type="checkbox" class="skill" id="intimidation">
+                    <label for="intimidation">Запугивание</label>
+                    <output class="skill-out" id="intimidation-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="performance">
+                    <label for="performance">Выступление</label>
+                    <output class="skill-out" id="performance-out">+0</output>
+                    
+                    <input type="checkbox" class="skill" id="persuasion">
+                    <label for="persuasion">Убеждение</label>
+                    <output class="skill-out" id="persuasion-out">+0</output>
+
+                </div>
+
+            </section>
+            
+        </article>
+            <h2>Бой</h2>
+
+            <label for="AC">Класс защиты:</label>
+            <input type="number" id="AC">
+
+            <label for="HP">Здоровье:</label>
+            <input type="number" id="HP">
+
+            <label for="initiative">Инициатива:</label>
+            <output id="initiative">+0</output>
+            
+        <article id="fight">
+
+        </article>
+    </main>
+
+    <footer>
+        <nav>
+            
+        </nav>
+    </footer>
+</body>
+
+</html>
